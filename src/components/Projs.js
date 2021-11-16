@@ -2,7 +2,7 @@ import PropTypes from "prop-types"
 
 function Project ({el}) {
     return(
-        <div class="project-card">
+        <div className="project-card">
             <img src= {el.img} alt="project" />
             <h3>{el.title}</h3>
             <p>

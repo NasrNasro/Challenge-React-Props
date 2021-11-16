@@ -19,7 +19,7 @@ function App() {
     <div className="App">
       <Head fullName = "John Doe"></Head>
       <About fullName = "John Doe" >
-      <img class="avatar" src={img1} alt="jhon-doe" />
+      <img className="avatar" src={img1} alt="jhon-doe" />
       </About>
       <Proj arr={arr}></Proj>
       <Cont />

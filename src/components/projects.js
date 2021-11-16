@@ -5,10 +5,10 @@ function Proj({arr}) {
     return(
     <div>
       <section id="projects">
-        <h2 class="text-important">Projects</h2>
-        <div class="projects-container">
-          {arr.map (el =>
-          <Project el={el}></Project>
+        <h2 className="text-important">Projects</h2>
+        <div className="projects-container">
+          {arr.map ((el,i) =>
+          <Project el={el} key={i}></Project>
           )}
         </div>
       </section>

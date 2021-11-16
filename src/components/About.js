@@ -6,7 +6,7 @@ function About({fullName, children}) {
         <section id="about-me">
             <h1>
             Hello, my name is
-            <span class="rotate text-important"> {fullName}</span>,<br />
+            <span className="rotate text-important"> {fullName}</span>,<br />
             and i make horrible websites.
             </h1>
             {children}
